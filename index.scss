@@ -1,60 +1,81 @@
-.container {
-  .col-sm-4{
-    .bbb{
-      width: 400px!important;
-      height: 100px!important;
-      background-color: #11b853;
-      color: white;
-      h2{
-        margin-left: 66%!important;
-        margin-top: 20px!important;
-      }
+.col-12{
+  ul{
+    a{
+      color: blue!important;
+      font-size: 20px!important;
     }
   }
-  .dd{
-    margin-left: -30px;
-    margin-top: 20px;
-  }
-  .ddd{
-    margin-top:10% ;
-  }
- li:hover{
-   border-top: 1px solid black;
-   a{
-     font-size: 20px;
-   }
- }
-  .pp{
-    height: 70px;
-  }
-
 }
-.card-body{
-  background-color: #82828a;
-
-
+.sec1{
+  width: 100%!important;
+  background-color: #474444;
 }
-
-
-
-
-@media screen and (max-width: 500px) {
-    .img1{
-        margin-left:50px;
+.sec2{
+  width: 100%!important;
+  height: 500px;
+  background-color: #077f99;
+  .col-8{
+    h1{
+      margin-left: -12%!important;
+      color: white!important;
     }
-  .card1{
-    margin:0 auto!important;
-    margin-top: 40px!important;
-    margin-left: 20px!important;
-  }
-  .ddd{
-    margin-top: 100px!important;
-    margin-left: 30px!important;
-  }
-  .dd{
-    .col-sm-4{
-      margin-left: 50px!important;
-      margin-top: 20px!important;
+    h5{
+      margin-left: -12%!important;
+      color: white!important;
     }
   }
+}
+.sec3{
+  .box{
+    h1{
+      margin-left: 42%;
+    }
+    h2{
+      margin-top: 80px!important;
+      color: black!important;
+      margin-left: -17%;
+    }
+  }
+}
+.sec4{
+  width: 100%!important;
+  height: 400px;
+  background-color: #077f99;
+  .box1{
+    h2{
+      margin-left: -20px;
+    }
+  }
+}
+.boc{
+    h1{
+      margin-left: 39%;
+    }
+    h2{
+      margin-top: 80px!important;
+      color: black!important;
+      margin-left: -18%;
+    }
+  }
+input{
+  background-color: transparent;
+  width: 500px!important;
+  border: none!important;
+  border-bottom: 1px solid black!important;
+  margin-top: 20px!important;
+}
+.gg{
+  img{
+    width: 50px!important;
+  }
+}
+.g{
+  h6{
+    color: red!important;
+  }
+}
+.foo{
+  width: 100%!important;
+  background-color: black;
+
 }
